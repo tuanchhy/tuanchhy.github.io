@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .form-group input.error {
+    border-color: red;
+  }
+  .form-group span.error-message {
+    color: red;
+    font-size: 0.9em;
+  }
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+  }
