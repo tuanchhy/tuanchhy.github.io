@@ -1,0 +1,133 @@
+body {
+    font-family: 'Georgia', serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; 
+    color: #333;
+}
+
+header {
+    background: #8b4513; 
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin: 0.5rem 0 1rem;
+    font-style: italic;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700; 
+    transform: scale(1.1); 
+}
+
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 2rem auto; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    color: #5c3e1f; 
+    font-size: 2.5rem;
+}
+
+#about {
+    text-align: center;
+}
+
+#about .about-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#about img {
+    width: 45%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#about p {
+    text-align: left;
+    margin: 1rem auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+#biography p {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#activities ul, #awards ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-left: 1.2rem;
+    list-style-type: decimal;
+}
+
+#music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#music iframe {
+    margin: 1rem auto; 
+    max-width: 90%; 
+    border-radius: 10px; 
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #8b4513; 
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1e1e2f; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
