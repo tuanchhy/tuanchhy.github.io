@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Content Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="alltab">
+        <div class="tab" onclick="switchTab(event, 'features')">
+            Features&reg; &rarr;
+        </div>
+        <div class="tab" onclick="switchTab(event, 'pricing')">
+            Pricing &rarr;
+        </div>
+        <div class="tab" onclick="switchTab(event, 'reviews')">
+            Reviews &rarr;
+        </div>
+        <div class="tab" onclick="switchTab(event, 'support')">
+            Support &rarr;
+        </div>
+    </div>
+
+    <div class="tab-content" id="features">
+        <h3>Features</h3>
+        <p>Details about the features of the product.</p>
+    </div>
+    <div class="tab-content" id="pricing">
+        <h3>Pricing</h3>
+        <p>Information about pricing plans.</p>
+    </div>
+    <div class="tab-content" id="reviews">
+        <h3>Reviews</h3>
+        <p>Customer reviews and feedbacks.</p>
+    </div>
+    <div class="tab-content" id="support">
+        <h3>Support</h3>
+        <p>Contact information and support options.</p>
+    </div>
+</body>
+</html>
